@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/jspproject">
+     <Resource name ="jdbc/eCommerce"
+    
+              auth="Container" type="javax.sql.DataSource"
+              maxActive ="20" maxIdle="5" maxWait="10000"
+              username ="root" password=""
+              driverClassName ="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost/e_commerce" />
+    
+</Context>
